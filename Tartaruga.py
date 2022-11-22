@@ -22,42 +22,41 @@ done()
 
 
 
-#from turtle import *
-# from random import choice
-# cores = ('Yellow', 'Blue', 'Red', 'Purple', 'Green')
-# fillcolor('Red')
-# begin_fill()
-# for c in range(0, 4):
-#     forward(90)
-#     right(90)
-#     pencolor(choice(cores))
-# 
-# setposition(45, 45)
-# 
-# for c in range(0, 4):
-#     forward(90)
-#     right(90)
-#     pencolor(choice(cores))
-# 
-# forward(90)
-# setposition(90, 0)
-# right(90)
-# forward(90)
-# setposition(135, -45 )
-# right(90)
-# forward(90)
-# setposition(0, -90)
-# end_fill()
-# done()
+from turtle import *
+from random import choice
+cores = ('Yellow', 'Blue', 'Red', 'Purple', 'Green')
+fillcolor('Red')
+begin_fill()
+for c in range(0, 4):
+    forward(90)
+     right(90)
+    pencolor(choice(cores))
+
+setposition(45, 45)
+ 
+ for c in range(0, 4):
+     forward(90)
+     right(90)
+     pencolor(choice(cores))
+ 
+ forward(90)
+ setposition(90, 0)
+ right(90)
+ forward(90)
+ setposition(135, -45 )
+ right(90)
+ forward(90)
+ setposition(0, -90)
+ end_fill()
+ done()
 
 
-# from turtle import *
-# color('red', 'yellow')
-# begin_fill()
-# while True:
-#     forward(200)
-#     left(170)
-#     if abs(pos()) < 1:
-#         break
-# end_fill()
-# done()
+ from turtle import *
+ color('red', 'yellow')
+ begin_fill()
+ while True:#     forward(200)
+     left(170)
+     if abs(pos()) < 1:
+         break
+ end_fill()
+ done()
