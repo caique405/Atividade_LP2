@@ -22,26 +22,32 @@ done()
 
 
 
-# from turtle import *
+#from turtle import *
 # from random import choice
-# corCaneta = ('Yellow', 'Red', 'Blue', 'Purple', 'Pink')
+# cores = ('Yellow', 'Blue', 'Red', 'Purple', 'Green')
+# fillcolor('Red')
+# begin_fill()
 # for c in range(0, 4):
-#     pencolor(choice(corCaneta))
 #     forward(90)
 #     right(90)
-#     pencolor(choice(corCaneta))
-
-# setposition(65, 65)
-
+#     pencolor(choice(cores))
+# 
+# setposition(45, 45)
+# 
 # for c in range(0, 4):
-#     pencolor(choice(corCaneta))
 #     forward(90)
 #     right(90)
-#     pencolor(choice(corCaneta))
+#     pencolor(choice(cores))
+# 
 # forward(90)
 # setposition(90, 0)
 # right(90)
 # forward(90)
+# setposition(135, -45 )
+# right(90)
+# forward(90)
+# setposition(0, -90)
+# end_fill()
 # done()
 
 
